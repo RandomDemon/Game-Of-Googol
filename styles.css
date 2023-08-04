@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+.stack {
+  background-color: #fff;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.papers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+#turnOverBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#turnOverBtn:hover {
+  background-color: #0056b3;
+}
+
+#displayArea {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#guessBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+#guessBtn:hover {
+  background-color: #1e7e34;
+}
